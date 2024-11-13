@@ -50,7 +50,7 @@ if (target_counts['promotor'] == 18251 and
 else:
     print("\nAs contagens das classes não estão de acordo. Verifique os dados.")
 
-# 6. Visualizar a distribuição das classes em um gráfico de barras
+# 6. Visualizar a distribuição das classes em um gráfico de barras...
 plt.figure(figsize=(8, 6))
 sns.countplot(data=df, x='target', order=['promotor', 'neutro', 'detrator'], palette='coolwarm')
 plt.title("Distribuição das Classes no Target")
